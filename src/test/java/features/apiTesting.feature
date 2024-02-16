@@ -103,17 +103,15 @@ Feature: API Testing for dummy io
   Scenario: Verify to POST an existing user firstName
     Given Prepare url for "POST_NEW_USER"
     And Hit the POST API with existing user firstName only
-    Then Validate status code is 200
-    And Validate response body POST user data
-    And Validate response JSON with JSONSchema "post_new_user_normal.json"
+    Then Validate status code is 400
+    And Validate response body POST new user data with existing user details
 
   @API
   Scenario: Verify to POST an existing user lastName
     Given Prepare url for "POST_NEW_USER"
     And Hit the POST API with existing user lastName only
-    Then Validate status code is 200
-    And Validate response body POST user data
-    And Validate response JSON with JSONSchema "post_new_user_normal.json"
+    Then Validate status code is 400
+    And Validate response body POST new user data with existing user details
 
   @API
   Scenario: Verify to POST an existing user email
