@@ -45,74 +45,74 @@ public class HomePageStepDef {
 
     @And("User clicks the Next button")
     public void userClicksTheNextButton() throws InterruptedException {
-        Thread.sleep(1000);
+        Thread.sleep(5000);
         homePagePage.userClicksTheNextButton();
     }
 
     @And("User clicks the Previous button")
     public void userClicksThePreviousButton() throws InterruptedException {
-        Thread.sleep(1000);
+        Thread.sleep(5000);
         homePagePage.userClicksThePreviousButton();
     }
 
     @And("User sees the carousel")
     public void userSeesTheCarousel() throws InterruptedException {
-        Thread.sleep(1000);
+        Thread.sleep(5000);
         homePagePage.userSeesTheCarousel();
     }
 
     @And("User clicks on the slide right carousel")
     public void userClicksOnTheSlideRightCarousel() throws InterruptedException {
-        Thread.sleep(1000);
+        Thread.sleep(5000);
         homePagePage.userClicksOnTheSlideRightCarousel();
     }
 
     @Then("Verify user sees the picture is changing")
     public void verifyUserSeesThePictureIsChanging() throws InterruptedException {
-        Thread.sleep(1000);
+        Thread.sleep(5000);
         homePagePage.verifyUserSeesThePictureIsChanging();
     }
 
     @And("User clicks on the slide left carousel")
     public void userClicksOnTheSlideLeftCarousel() throws InterruptedException {
-        Thread.sleep(1000);
+        Thread.sleep(5000);
         homePagePage.userClicksOnTheSlideLeftCarousel();
     }
 
     @And("User clicks on the first bar of carousel picture")
     public void userClicksOnTheFirstBarOfCarouselPicture() throws InterruptedException {
-        Thread.sleep(1000);
+        Thread.sleep(5000);
         homePagePage.userClicksOnTheFirstBarOfCarouselPicture();
 
     }
 
     @Then("Verify user sees the first picture")
     public void verifyUserSeesTheFirstPicture() throws InterruptedException {
-        Thread.sleep(1000);
+        Thread.sleep(5000);
         homePagePage.verifyUserSeesTheFirstPicture();
     }
 
     @And("User clicks on the second bar of carousel picture")
     public void userClicksOnTheSecondBarOfCarouselPicture() throws InterruptedException {
-        Thread.sleep(1000);
+        Thread.sleep(5000);
         homePagePage.userClicksOnTheSecondBarOfCarouselPicture();
     }
 
     @Then("Verify user sees the second picture")
     public void verifyUserSeesTheSecondPicture() throws InterruptedException {
-        Thread.sleep(1000);
+        Thread.sleep(5000);
         homePagePage.verifyUserSeesTheSecondPicture();
     }
 
     @And("User clicks on the third bar of carousel picture")
     public void userClicksOnTheThirdBarOfCarouselPicture() throws InterruptedException {
-        Thread.sleep(1000);
+        Thread.sleep(5000);
         homePagePage.userClicksOnTheThirdBarOfCarouselPicture();
     }
 
     @Then("Verify user sees the third picture")
     public void verifyUserSeesTheThirdPicture() throws InterruptedException {
-        Thread.sleep(1000);
+        Thread.sleep(5000);
         homePagePage.verifyUserSeesTheThirdPicture();
     }
 
