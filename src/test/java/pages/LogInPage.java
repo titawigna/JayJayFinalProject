@@ -71,13 +71,13 @@ public class LogInPage {
 
     public void userFillsTheLogInUsernameForNewlyCreatedAccount(){
         newlyCreatedUsername = getterUsername();
-        System.out.println("Ini adalah username dari LogInPage: "+newlyCreatedUsername);
+        //System.out.println("Ini adalah username dari LogInPage: "+newlyCreatedUsername);
 
-        driver.findElement(logInUsernameField).sendKeys(signUpPage.newlyGeneratedUsername);
+        driver.findElement(logInUsernameField).sendKeys(newlyCreatedUsername);
     }
 
     public void verifyUserHasBeenLoggedInForNewlyCreatedAccount(){
-        //driver.findElement(nameofTheUser(signUpPage.newlyGeneratedUsername)).isDisplayed();
+        //driver.findElement(nameofTheUser(newlyCreatedUsername)).isDisplayed();
     }
 
 
