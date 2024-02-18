@@ -32,6 +32,7 @@ public class Utility {
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
         options.addArguments("--remote-allow-origins=*");
+        options.addArguments("--window-size=1920,1080");
         WebDriverManager.edgedriver().setup();
         driver = new EdgeDriver(options);
         driver.manage().window().maximize();
