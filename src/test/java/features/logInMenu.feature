@@ -11,7 +11,7 @@ Feature: Log In Menu
     Given User is on the Home Page
     And User clicks on the Global Navigation Menu "Sign up"
     And Verify that Sign Up Menu Pop-up window will be displayed
-    And User fills in the Sign Up username
+    And User fills in the new Sign Up username
     And User fills in the Sign Up password "12345"
     And User clicks the Sign Up button
     And Verify the alert message "Sign up successful."
